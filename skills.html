@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills | SecureProfile</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 2L4 7V17C4 23.6 9.4 29.6 16 31C22.6 29.6 28 23.6 28 17V7L16 2Z" fill="none" stroke="#00FFD1" stroke-width="1.5"/><path d="M11 16l3 3 7-7" stroke="#00FFD1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>SecureProfile</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html" style="color:var(--accent)">Skills</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="section skills" style="padding-top: 8rem;">
+    <div class="container">
+      <p class="section__eyebrow mono">// skills.scan()</p>
+      <h1 class="section__title">Technical Arsenal</h1>
+      <div class="skills__grid">
+        <div class="skill-card">
+          <div class="skill-card__icon">🌐</div>
+          <h3>Web Development</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>HTML / CSS</span><div class="bar"><div class="bar__fill" data-width="90"></div></div><span class="mono">90%</span></div>
+            <div class="skill-bar"><span>JavaScript</span><div class="bar"><div class="bar__fill" data-width="75"></div></div><span class="mono">75%</span></div>
+            <div class="skill-bar"><span>Git / GitHub</span><div class="bar"><div class="bar__fill" data-width="80"></div></div><span class="mono">80%</span></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">🔐</div>
+          <h3>Security</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>OWASP / XSS</span><div class="bar"><div class="bar__fill" data-width="70"></div></div><span class="mono">70%</span></div>
+            <div class="skill-bar"><span>Burp Suite</span><div class="bar"><div class="bar__fill" data-width="60"></div></div><span class="mono">60%</span></div>
+            <div class="skill-bar"><span>Nmap / Wireshark</span><div class="bar"><div class="bar__fill" data-width="65"></div></div><span class="mono">65%</span></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">⚙️</div>
+          <h3>Systems & Scripting</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>Python</span><div class="bar"><div class="bar__fill" data-width="72"></div></div><span class="mono">72%</span></div>
+            <div class="skill-bar"><span>Linux / Bash</span><div class="bar"><div class="bar__fill" data-width="68"></div></div><span class="mono">68%</span></div>
+            <div class="skill-bar"><span>Networking (TCP/IP)</span><div class="bar"><div class="bar__fill" data-width="75"></div></div><span class="mono">75%</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="tools-row">
+        <span class="mono tools-row__label">Tools I Use:</span>
+        <div class="tools-list">
+          <span class="tool-badge">Kali Linux</span>
+          <span class="tool-badge">VS Code</span>
+          <span class="tool-badge">Burp Suite</span>
+          <span class="tool-badge">Nmap</span>
+          <span class="tool-badge">Wireshark</span>
+          <span class="tool-badge">Metasploit</span>
+          <span class="tool-badge">GitHub Actions</span>
+          <span class="tool-badge">Netlify</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="mono" style="color:var(--text-muted)">// &copy; 2026 SecureProfile</p>
+      <div class="footer__right">
+        <a href="SECURITY.md" class="footer-link">SECURITY.md</a>
+        <a href="index.html" class="footer-link">← Home</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | SecureProfile</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 2L4 7V17C4 23.6 9.4 29.6 16 31C22.6 29.6 28 23.6 28 17V7L16 2Z" fill="none" stroke="#00FFD1" stroke-width="1.5"/><path d="M11 16l3 3 7-7" stroke="#00FFD1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>SecureProfile</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" style="color:var(--accent)">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="section" style="padding-top: 8rem;">
+    <div class="container">
+      <p class="section__eyebrow mono">// about.exe</p>
+      <h1 class="section__title">About Me</h1>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>I'm a cybersecurity enthusiast currently pursuing my B.Tech in Computer Science with a specialization in Information Security. I love breaking things (ethically) and building them back stronger.</p>
+          <p>My journey started with curiosity about how systems fail — and evolved into a mission to build resilient, secure software that protects real people.</p>
+          <p>When I'm not writing code or hunting bugs, you'll find me participating in CTF challenges, contributing to open source, or learning about the latest CVEs.</p>
+          <div class="about__education">
+            <h3>Education</h3>
+            <div class="edu-item">
+              <div class="edu-item__dot"></div>
+              <div>
+                <strong>B.Tech — Computer Science (Cybersecurity)</strong>
+                <span class="mono">2022 – 2026 · Your University</span>
+              </div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-item__dot"></div>
+              <div>
+                <strong>Class XII — Science (PCM + CS)</strong>
+                <span class="mono">2022 · Your School · 90%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__roadmap">
+          <h3>Cybersecurity Roadmap</h3>
+          <div class="roadmap">
+            <div class="roadmap__phase active"><span class="roadmap__num">01</span><div><strong>Foundations</strong><p>Networking, Linux, Python scripting</p></div><span class="roadmap__tag done">Done</span></div>
+            <div class="roadmap__phase active"><span class="roadmap__num">02</span><div><strong>Web Security</strong><p>OWASP Top 10, XSS, SQLi, CSRF</p></div><span class="roadmap__tag done">Done</span></div>
+            <div class="roadmap__phase current"><span class="roadmap__num">03</span><div><strong>Ethical Hacking</strong><p>Pen testing, CTF challenges, Metasploit</p></div><span class="roadmap__tag inprogress">In Progress</span></div>
+            <div class="roadmap__phase"><span class="roadmap__num">04</span><div><strong>Cloud Security</strong><p>AWS, GCP security, IAM, Zero Trust</p></div><span class="roadmap__tag upcoming">Upcoming</span></div>
+            <div class="roadmap__phase"><span class="roadmap__num">05</span><div><strong>Red Team / SOC</strong><p>Threat hunting, SIEM, incident response</p></div><span class="roadmap__tag upcoming">Upcoming</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="mono" style="color:var(--text-muted)">// &copy; 2026 SecureProfile</p>
+      <div class="footer__right">
+        <a href="SECURITY.md" class="footer-link">SECURITY.md</a>
+        <a href="index.html" class="footer-link">← Home</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
