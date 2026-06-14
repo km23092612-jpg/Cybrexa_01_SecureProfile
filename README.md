@@ -11,7 +11,12 @@
 
 ## 📸 Preview
 
-> _Add a screenshot here after deployment_
+![Homepage](images/screenshot-Home-Page.png)
+![Skills Section](images/screenshot-Skills.png)
+![Contact Form](images/screenshot-Contact-Section.png)
+![Mobile View](images/screenshot-mobile-view.jepg)
+
+## docs: add screenshots to README
 
 ---
 
